@@ -18,7 +18,7 @@ int main(void)
 	int max_slices = 0, max_pizzas = 0,
 		datapoint = 0;
 	
-	// invokes the function menu() which asks user to pick a correct data-set from a pool of integers from 1 through 5.
+	// invokes the function menu() which asks user to pick a correct data-set from a pool of characters from a through e.
 	infile = menu();
 	
 	// in the next 2 lines, the infile parameter is passed into the function read_datapoint(),
