@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\karl\source\repos\HashCode_Team\main.c(32,22): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\karl\source\repos\HashCode_Team\main.c(32,48): warning C4047: '=': 'int *' differs in levels of indirection from 'int'
+  HashCode_Team.vcxproj -> C:\Users\karl\source\repos\HashCode_Team\Debug\HashCode_Team.exe

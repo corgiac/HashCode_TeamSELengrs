@@ -1,0 +1,16 @@
+#ifndef HEADER_H
+#define HEADER_H
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+#include <math.h>
+
+#endif
+
+
+// ASKS USER TO CHOOSES THE CORRECT DATA-SET FROM A GIVEN LIST OF CHARACTERS.
+FILE* menu(void);
+
+// TAKES AN OPENED INFILE AND EXTRACTS ONE INTEGER VALUE FROM IT, IS MEANT TO BE RECYCLED IN LOOPS.
+int read_datapoint(FILE* infile);
