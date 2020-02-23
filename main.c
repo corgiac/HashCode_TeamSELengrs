@@ -32,7 +32,7 @@ int main(void)
 	line_2_data = malloc(sizeof(int) * max_pizzas);
 
 	// declares and initializes i, i is our counter for the next for-loop.
-	// this for-loop repeatedly reads values from the raw data, starting from the 3rd value,
+	// this for-loop repeatedly reads values from the raw data, starting from the 1st entry on the second line,
 	// and assigns it to each block of the array <line_2_data>.
 	int i = 0;
 	int	counter = 0;	// our counter for number of selected pizzas.
